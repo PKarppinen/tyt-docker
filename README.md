@@ -6,9 +6,9 @@ Needed commands
 - To build needed Docker images run: 	**docker-compose -f docker-compose.yml build --build-arg API_IP=\<YOUR SERVER IP ADDRESS\>**
 - To run the cluster: **docker-compose -f docker-compose.yml up**
  
-Above commands will build the cluster with
-- A Single node for front end application
-- A Single node for back end application
+Above commands will build and run the cluster with
+- A Single node for front end application. Source code repository: https://github.com/PKarppinen/tyt-frontend-repo
+- A Single node for back end application. Source code repository: https://github.com/PKarppinen/tyt-api-repo
 - A Single node for MongoDB database
 
 All nodes will be in Docker containers. There are no load balancers, any other proxies, auto scaling etc.
