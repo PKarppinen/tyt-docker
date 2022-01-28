@@ -3,7 +3,7 @@
 This repository contains all needed Docker files to build and run Trail your trails application cluster.
 
 Needed commands
-- To build needed Docker images run: 	**docker-compose -f docker-compose.yml build --build-arg API_IP=<YOUR SERVER IP ADDRESS>**
+- To build needed Docker images run: 	**docker-compose -f docker-compose.yml build --build-arg API_IP=\<YOUR SERVER IP ADDRESS\>**
 - To run the cluster: **docker-compose -f docker-compose.yml up**
  
 Above commands will build the cluster with
