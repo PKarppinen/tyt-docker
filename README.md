@@ -17,3 +17,6 @@ Back end application is protected by Spring Security and Basic authentication.
 
 Simple architecture diagram of AWS EC2 setup
 ![AWS EC2 setup](./Docker-setup.PNG)
+
+Better approach would be to use multi node cluster with load balancers. For example in AWS ECS
+![AWS ECS setup](./ECS-setup.PNG)
