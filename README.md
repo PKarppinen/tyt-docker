@@ -13,7 +13,7 @@ Above commands will build and run the cluster with
 
 All nodes will be in Docker containers. There are no load balancers, any other proxies, auto scaling etc.
 
-Back end application is protected by Spring Security and Basic authentication.
+Back end application is protected by Spring Security and Basic authentication. Back end API is only accessible from the front end application.
 
 Simple architecture diagram of AWS EC2 setup
 ![AWS EC2 setup](./Docker-setup.PNG)
