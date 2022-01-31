@@ -27,4 +27,4 @@ RUN grunt --apiIP=$API_IP
 RUN chmod 755 dist/js/trail-your-trails.min.js
 
 # Run http-server
-CMD http-server . -p 8081
+CMD http-server . -p 8081 -S -C tyt-web-cert.pem
