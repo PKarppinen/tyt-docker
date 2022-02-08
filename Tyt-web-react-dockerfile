@@ -1,0 +1,13 @@
+FROM node
+
+# Load the app
+WORKDIR /home/docker/
+RUN git clone https://github.com/PKarppinen/tyt-frontend-react.git
+
+# Install needed dependencies and compile the app
+WORKDIR /home/docker/tyt-frontend-react/
+RUN npm install
+RUN npm run build
+
+# Run the app
+CMD npm start
