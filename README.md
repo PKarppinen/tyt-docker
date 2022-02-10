@@ -16,7 +16,7 @@ All nodes will be in Docker containers. The cluster is set up by Docker-compose.
 
 Back end application is protected by Spring Security and Basic authentication. Back end API is only accessible from the front end application.
 
-Simple architecture diagram of AWS EC2 setup
+Simple architecture diagram of the setup
 ![AWS EC2 setup](./Docker-setup.PNG)
 
 Better approach would be to use multi node cluster with load balancers. For example in AWS ECS
